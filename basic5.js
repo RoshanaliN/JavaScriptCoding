@@ -1,3 +1,4 @@
+const Persons = require('./basic7')
 let day = 'tuesday '
 console.log(day.length)
 console.log(day.slice(0, 3))
@@ -34,3 +35,6 @@ while(val != -1){
     val=temp.indexOf('day',val+1)
 }
 console.log(count)
+
+let person2 = new Persons('admin', 'test')
+person2.fullName()
